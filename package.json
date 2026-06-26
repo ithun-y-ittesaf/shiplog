@@ -1,0 +1,10 @@
+{
+  "name": "shiplog-pm",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:web": "pnpm --filter @shiplog/web dev",
+    "db:generate": "pnpm --filter @shiplog/db drizzle-kit generate",
+    "db:push": "pnpm --filter @shiplog/db drizzle-kit push"
+  }
+}

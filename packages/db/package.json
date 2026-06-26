@@ -1,0 +1,15 @@
+{
+  "name": "@shiplog/db",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "drizzle-orm": "^0.30.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.21.0",
+    "pg": "^8.11.0"
+  }
+}
