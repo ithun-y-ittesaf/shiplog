@@ -84,4 +84,3 @@ pnpm db:push
 - Secrets (Slack webhook URLs, API keys) currently live in `.env` per
   instance. Before this becomes multi-workspace, that needs to move to an
   encrypted `secrets` table — don't skip that when you get there.
-# shiplog
